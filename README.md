@@ -1,5 +1,5 @@
-## AWS ALB Terraform module
-#### Terraform module which creates ALB with Target Group resources on AWS.
+## AWS VPC Terraform module
+#### Terraform module which creates VPC resources on AWS.
 
 ##### Usage
 
