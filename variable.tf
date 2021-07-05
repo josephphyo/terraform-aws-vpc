@@ -1,18 +1,3 @@
-variable "region" {
-  type        = string
-  description = "Region Variable"
-}
-
-variable "access_key" {
-  type    = string
-  default = ""
-}
-
-variable "secret_key" {
-  type    = string
-  default = ""
-}
-
 variable "vpc_cidr" {
   type        = string
   description = "CIDR block for the VPC"
