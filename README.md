@@ -21,7 +21,6 @@ module "vpc" {
 
 ##### Requirements
 
-
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> v1.0.1 |
@@ -58,6 +57,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_access_key"></a> [access\_key](#input\_access\_key) | n/a | `string` | `""` | no |
 | <a name="input_dest_cidr_block_private_route"></a> [dest\_cidr\_block\_private\_route](#input\_dest\_cidr\_block\_private\_route) | Private route to NAT gateway | `string` | n/a | yes |
 | <a name="input_dest_cidr_block_public_route"></a> [dest\_cidr\_block\_public\_route](#input\_dest\_cidr\_block\_public\_route) | Public route to internet | `string` | n/a | yes |
 | <a name="input_is_one_nat_gw"></a> [is\_one\_nat\_gw](#input\_is\_one\_nat\_gw) | Only Create One NAT on public subnet | `bool` | n/a | yes |
@@ -65,6 +65,7 @@ No modules.
 | <a name="input_public_sn_cidr"></a> [public\_sn\_cidr](#input\_public\_sn\_cidr) | CIDR block for public subnet | `list(string)` | n/a | yes |
 | <a name="input_region"></a> [region](#input\_region) | Region Variable | `string` | n/a | yes |
 | <a name="input_regional_tag"></a> [regional\_tag](#input\_regional\_tag) | Tagging Variable | `string` | `"regional"` | no |
+| <a name="input_secret_key"></a> [secret\_key](#input\_secret\_key) | n/a | `string` | `""` | no |
 | <a name="input_vpc_cidr"></a> [vpc\_cidr](#input\_vpc\_cidr) | CIDR block for the VPC | `string` | n/a | yes |
 
 ## Outputs
