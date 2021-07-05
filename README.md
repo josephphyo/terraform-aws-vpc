@@ -6,7 +6,6 @@
 ```
 module "vpc" {
   source  = "josephphyo/vpc/aws"
-  version = "0.1.3"
   
   vpc_cidr = "192.168.0.0/16"
   public_sn_cidr = ["192.168.1.0/24", "192.168.2.0/24"]
