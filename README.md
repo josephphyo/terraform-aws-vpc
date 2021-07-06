@@ -69,3 +69,4 @@ No modules.
 | <a name="output_private_subnet_id"></a> [private\_subnet\_id](#output\_private\_subnet\_id) | Private Subnet ID |
 | <a name="output_public_subnet_id"></a> [public\_subnet\_id](#output\_public\_subnet\_id) | Public Subnet ID |
 | <a name="output_vpc_arn"></a> [vpc\_arn](#output\_vpc\_arn) | VPC\_ARN |
+| <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | VPC ID |

@@ -1,3 +1,8 @@
+output "vpc_id" {
+  value       = aws_vpc.regional_vpc.id
+  description = "VPC ID"
+}
+
 output "vpc_arn" {
   value       = aws_vpc.regional_vpc.arn
   description = "VPC_ARN"
